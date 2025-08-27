@@ -1,6 +1,6 @@
 import { initializeApp } from 'firebase/app';
 
-
+const firebaseConfig = {
    apiKey: "AIzaSyCFBE0UeNXgq6kSgrv2hExiTlTrzk7_0Zk",
   authDomain: "cc-goals.firebaseapp.com",
   projectId: "cc-goals",
@@ -11,3 +11,5 @@ import { initializeApp } from 'firebase/app';
 };
 
 const app = initializeApp(firebaseConfig);
+
+//asfasfas
