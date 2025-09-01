@@ -4,11 +4,12 @@ import { StatusBar } from "expo-status-bar"
 export default function RootLayout() {
   return (
     <>
-      <StatusBar style="auto" />
-      <Stack>
-        <Stack.Screen name="goals" options={{ headerShown: false }} />
-        <Stack.Screen name="+not-found" />
+    <StatusBar style="auto" />
+    <Stack>
+      <Stack.Screen namee="goals" options={{ headerShown: false }} />   
+      <Stack.Screen name="+not-found" />
       </Stack>
-    </>
+    </>  
+
   )
 }
