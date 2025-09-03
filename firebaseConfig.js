@@ -1,7 +1,8 @@
 import { initializeApp } from 'firebase/app';
+import { getFirestore } from 'firebase/firestore';
 
 const firebaseConfig = {
-   apiKey: "AIzaSyCFBE0UeNXgq6kSgrv2hExiTlTrzk7_0Zk",
+  apiKey: "AIzaSyCFBE0UeNXgq6kSgrv2hExiTlTrzk7_0Zk",
   authDomain: "cc-goals.firebaseapp.com",
   projectId: "cc-goals",
   storageBucket: "cc-goals.firebasestorage.app",
@@ -11,5 +12,5 @@ const firebaseConfig = {
 };
 
 const app = initializeApp(firebaseConfig);
-
+export const db = getFirestore(app);
 //asfasfas
